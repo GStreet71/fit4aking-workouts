@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (    
@@ -24,9 +25,11 @@ function Hero() {
           Keep crushing it, and remember, every rep brings you closer to <span className='text-blue-400 
           font-medium'>your crown</span>!
         </p>
-        <Button func={() =>  {
-          window.location.href = "#generate"
-        }} text={"Accept & Begin"} />
+        <Link to="generate">
+          <Button func={() =>  {
+            // window.location.href = "#generate"
+          }} text={"Accept & Begin"} />
+        </Link>
     </div>
   )
 }

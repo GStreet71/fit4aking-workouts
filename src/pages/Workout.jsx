@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionWrapper from './SectionWrapper'
-import ExerciseCard from './ExerciseCard'
+import SectionWrapper from '../components/SectionWrapper'
+import ExerciseCard from '../components/ExerciseCard'
 
 function Workout(props) {
     const { workout } = props
@@ -15,6 +15,7 @@ function Workout(props) {
                 })}
             </div>
         </SectionWrapper>
+        
     )
 }
 

@@ -1,7 +1,8 @@
 import React, { useState }  from 'react'
-import SectionWrapper from './SectionWrapper'
+import SectionWrapper from '../components/SectionWrapper'
 import { WORKOUTS, SCHEMES } from '../utils/swoldier'
-import Button from './Button'
+import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 function Header(props) {
     const { index, title, description } = props
@@ -125,7 +126,9 @@ function Generator(props) {
                     )
                 })}
             </div>
-            <Button func={updatedWorkout} text={"Formulate"} className="blue-shadow"/>
+            <Link className="flex justify-center align-items-center" to="../workout">
+                <Button func={updatedWorkout} text={"Formulate"} className="blue-shadow"/>
+            </Link>
         </SectionWrapper>
     )
 }
