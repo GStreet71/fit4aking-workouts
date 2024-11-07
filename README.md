@@ -23,8 +23,8 @@ To get started with this Vite React project, follow these steps:
   First, you need to clone the repository to your local machine. You can do this using Git:
   
   ```bash
-  git clone <https://github.com/GStreet71/fit4aking-workouts.git>
-  cd <https://github.com/GStreet71/fit4aking-workouts>
+  git clone https://github.com/GStreet71/fit4aking-workouts.git
+  cd https://github.com/GStreet71/fit4aking-workouts
   ```
 <br>
 
