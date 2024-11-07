@@ -24,6 +24,8 @@ To get started with this Vite React project, follow these steps:
   
   ```bash
   git clone https://github.com/GStreet71/fit4aking-workouts.git
+  ```
+  ```bash
   cd https://github.com/GStreet71/fit4aking-workouts
   ```
 <br>
