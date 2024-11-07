@@ -8,6 +8,53 @@
 ![Alt text](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
 ![Alt text](https://img.shields.io/badge/Netlify-00C7B7.svg?style=for-the-badge&logo=Netlify&logoColor=white)
 <br><br>
+
 React Application that generates cusomized workout regimen fit for a king.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-blue)](https://fit4aking.netlify.app)
+<br><br>
+
+# Installation
+
+To get started with this Vite React project, follow these steps:
+
+### 1. Clone the Repository
+
+  First, you need to clone the repository to your local machine. You can do this using Git:
+  
+  ```bash
+  git clone <https://github.com/GStreet71/fit4aking-workouts.git>
+  cd <https://github.com/GStreet71/fit4aking-workouts>
+  ```
+<br>
+
+### 2. Install Dependencies
+
+Install the dependencies using one of the following package managers:
+
+#### Using npm
+
+```bash
+npm install
+```
+#### Using yarn
+
+```bash
+yarn install
+```
+<br>
+
+# Run the Project
+
+After installing the dependencies, you can start the development server with:
+
+#### Using npm
+
+```bash
+npm run dev
+```
+#### Using yarn
+
+```bash
+yarn dev
+```
