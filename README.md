@@ -12,7 +12,7 @@
 
 React Application that generates cusomized workout regimen fit for a king.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-blue?style=for-the-badge)](https://apotd.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-blue?style=for-the-badge)](https://fit4aking.netlify.app)
 <br><br>
 
 # Installation
